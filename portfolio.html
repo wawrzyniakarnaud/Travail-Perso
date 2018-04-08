@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+     <head>
+          <meta charset="utf-8">
+          <title>PortFolio</title>
+          <link rel="stylesheet" href="portfolio.css">
+          <link rel="stylesheet" href="./css/bootstrap.css">
+          <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+          <script src="./css/bootstrap.min.css"></script>
+
+
+     </head>
+
+     <body>
+          <header></header>
+
+
+          <div class="container dad" style="width: 100%; padding: 0;">
+
+               <div class="name">
+                    <p> WAWRZYNIAK</p>
+                    <p>DUBUT </p>
+                    <p> ARNAUD </p>
+               </div>
+
+
+               <div class="row" style="float: right;">
+
+
+
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                         <div id="taba" onclick="a()" class="grow vertical-tab-1">
+                              <p class="tab-title">CV</p>
+                         </div>
+                         <div id="tabb" onclick="b()" class="grow vertical-tab-2">
+                              <p class="tab-title">LINK</p>
+                         </div>
+                         <div id="tabc" onclick="c()" class="grow vertical-tab-3">
+                              <p class="tab-title">GALERIE</p>
+                         </div>
+
+                         <div id="tabd" onclick="d()" class="grow vertical-tab-4">
+                              <p class="tab-title">CONTACT</p>
+
+                              <div id="contact">
+                                   <form method="post" name="form_js" onsubmit="return(validate());">
+
+                                        <section class="form">
+
+                                             <div class="names">
+                                                  <article class="nom">
+
+                                                       <div><label for="nom">Nom : </label></div>
+
+                                                       <div><input name="nom" style="width:500px" id="nom" type="text" onchange="end_form()" /></div>
+
+                                                       <div class="uncheck" id="id_2"></div>
+
+                                                  </article>
+                                                  <article class="prenom">
+
+                                                       <div><label for="prenom">Prénom  : </label></div>
+
+                                                       <div><input name="prenom" style="width:500px" id="prenom" type="text" onchange="end_form()" /></div>
+
+                                                       <div class="uncheck" id="id_3"></div>
+
+                                                  </article>
+                                                  <article class="email">
+
+                                                       <div><label for="mail_inscription">Email : </label></div>
+
+                                                       <div><input name="mail_inscription" id="mail_inscription" style="width:500px" type="text" required onchange="end_form()" /></div>
+
+                                                       <div class="uncheck" id="id_4"></div>
+
+                                                  </article>
+                                             </div>
+
+                                             <div class="texte">
+                                                  :
+                                                  <article class="message">
+                                                       <label class="txt" for="subject">Subject</label><br>
+                                                       <textarea id="subject" name="subject" style="width:500px;height:300px"></textarea>
+                                                  </article>
+                                             </div>
+
+                                             <div id="btn" class="bouton">
+                                                  <input type="submit" id="Validation" value="Envoyé" disabled="true" />
+                                             </div>
+
+                                             <script src="portfolio.js">
+                                             </script>
+                                        </section>
+                                   </form>
+                              </div>
+                         </div>
+                    </div>
+               </div>
+          </div>
+
+
+
+          <footer>
+          </footer>
+
+     </body>
+
+</html>
