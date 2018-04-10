@@ -3,7 +3,7 @@
 
 
 .dad {
-     background-image: url(imgdeux.jpg);
+     background-image: url(backhome.png);
      background-repeat: no-repeat;
      background-size: contain;
 
@@ -32,51 +32,40 @@
      width: 1px;
      word-wrap: break-word;
      font-size: 1.7em;
-     color: black;
+     color: silver;
      font-weight: 800;
-     color: darkred;
      font-family: 'Finger Paint', cursive;
 
 }
 
 .vertical-tab-1 {
-     background-image: url(imgun.jpg);
+     background-image: url(imgdeux.jpg);
      background-repeat: no-repeat;
      background-size: cover;
-     box-shadow: 5px 5px 30px red;
-     text-shadow: 1px 1px 3px grey;
+     box-shadow: 5px 5px 30px white;
+     text-shadow: 5px 5px 5px black;
 
 
 }
 
 .vertical-tab-2 {
 
-     background-image: url(imgun.jpg);
+     background-image: url(imgtrois.jpg);
      background-repeat: no-repeat;
      background-size: cover;
-     box-shadow: 5px 5px 30px red;
-     text-shadow: 1px 1px 3px grey;
-
-}
-
-.vertical-tab-3 {
-
-     background-image: url(imgun.jpg);
-     background-repeat: no-repeat;
-     background-size: cover;
-     box-shadow: 5px 5px 30px red;
-     text-shadow: 1px 1px 3px grey;
+     box-shadow: 5px 5px 30px white;
+     text-shadow: 5px 5px 5px black;
 
 }
 
 .vertical-tab-4 {
 
-     background-image: url(imgun.jpg);
+     background-image: url(imgquatre.jpg);
      background-repeat: no-repeat;
      background-size: cover;
-     box-shadow: 5px 5px 30px red;
-     text-shadow: 1px 1px 3px grey;
-     
+     box-shadow: 5px 5px 30px white;
+     text-shadow: 5px 5px 5px black;
+
 
 
 }
@@ -85,17 +74,16 @@
      width: 1px;
      word-wrap: break-word;
      font-family: 'Just Another Hand', cursive;
-     color: aliceblue;
+     color: silver;
      font-size: 1.7em;
      position: absolute;
      margin-left: 10px;
-     color: darkred;
      font-weight: 900;
      margin-top: 30px;
-     text-shadow: 1px 1px 3px grey;
+     text-shadow: 5px 5px 5px black;
 }
 
-.bouton {
+.z {
      margin-left: 47%;
      margin-bottom: 230px;
      font-family: 'Finger Paint', cursive;
@@ -103,79 +91,80 @@
 }
 
 .bouton:hover {
-     color: darkred;
+     color: silver;
 }
 
 .nom {
-     color: darkred;
+     color: silver;
      font-size: 1.2em;
      font-family: 'Finger Paint', cursive;
 
 }
 
 .prenom {
-     color: darkred;
+     color: silver;
      font-size: 1.2em;
      font-family: 'Finger Paint', cursive;
 
 }
 
 .email {
-     color: darkred;
+     color: silver;
      font-size: 1.2em;
      font-family: 'Finger Paint', cursive;
 
 }
 
 .texte {
-     color: darkred;
+     color: silver;
      font-size: 1.2em;
      font-family: 'Finger Paint', cursive;
 
 }
-.form
-{
+
+.form {
      position: absolute;
-    left: 160px;
+     left: 160px;
      top: 110px;
 }
+
 /*
 @media screen and (max-width: 970px) {
-	.rotate {
-		font-size: 1.5em;
-	}
+.rotate {
+font-size: 1.5em;
+}
 }
 
 
 @media screen and (max-width: 970px) {
-	.tab-title {
-		font-size: 1.6em;
-	}
+.tab-title {
+font-size: 1.6em;
+}
 }
 
 @media screen and (max-width: 767px) {
-	.rotate {
-		font-size: 1.125em;
-	}
+.rotate {
+font-size: 1.125em;
+}
 }
 
 
 @media screen and (max-width: 767px) {
-	.tab-title {
-		font-size: 1.25em;
-	}
+.tab-title {
+font-size: 1.25em;
+}
 }
 
 @media screen and (max-width: 500px) {
-	.rotate {
-		font-size: 0.6em;
-	}
+.rotate {
+font-size: 0.6em;
+}
 }
 
 
 @media screen and (max-width: 500px) {
-	.tab-title {
-		font-size: 0.75em;
-	}
+.tab-title {
+font-size: 0.75em;
+}
 }
 */
